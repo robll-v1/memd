@@ -1,5 +1,8 @@
 # memd
 
+[![CI](https://github.com/robll-v1/memd/actions/workflows/ci.yml/badge.svg)](https://github.com/robll-v1/memd/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/robll-v1/memd)](./LICENSE)
+
 Local-first memory runtime for AI agents.
 
 ## Features
@@ -51,5 +54,6 @@ args = ["mcp", "--agent", "codex"]
 
 - design: `docs/DESIGN.md`
 - publishing: `docs/PUBLISHING.md`
+- releasing: `docs/RELEASING.md`
 - contributing: `CONTRIBUTING.md`
 
