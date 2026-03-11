@@ -14,8 +14,8 @@ import (
 	"github.com/google/uuid"
 	_ "modernc.org/sqlite"
 
-	"github.com/moukeyu/memd/internal/config"
-	"github.com/moukeyu/memd/internal/core"
+	"github.com/robll-v1/memd/internal/config"
+	"github.com/robll-v1/memd/internal/core"
 )
 
 type Repository struct {

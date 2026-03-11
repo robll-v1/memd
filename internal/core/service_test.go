@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/moukeyu/memd/internal/core"
-	"github.com/moukeyu/memd/internal/embed"
-	"github.com/moukeyu/memd/internal/store/sqlite"
+	"github.com/robll-v1/memd/internal/core"
+	"github.com/robll-v1/memd/internal/embed"
+	"github.com/robll-v1/memd/internal/store/sqlite"
 )
 
 func newTestService(t *testing.T) *core.Service {

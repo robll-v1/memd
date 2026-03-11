@@ -7,9 +7,9 @@ import (
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 
-	"github.com/moukeyu/memd/internal/core"
-	"github.com/moukeyu/memd/internal/embed"
-	"github.com/moukeyu/memd/internal/store/sqlite"
+	"github.com/robll-v1/memd/internal/core"
+	"github.com/robll-v1/memd/internal/embed"
+	"github.com/robll-v1/memd/internal/store/sqlite"
 )
 
 func TestMCPStoreAndRetrieve(t *testing.T) {

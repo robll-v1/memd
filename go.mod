@@ -1,4 +1,4 @@
-module github.com/moukeyu/memd
+module github.com/robll-v1/memd
 
 go 1.24.0
 

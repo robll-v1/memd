@@ -11,7 +11,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/moukeyu/memd/internal/embed"
+	"github.com/robll-v1/memd/internal/embed"
 )
 
 type Service struct {
