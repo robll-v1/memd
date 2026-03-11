@@ -14,6 +14,48 @@ Local-first memory runtime for AI agents.
 - exact duplicate preview/apply
 - optional OpenAI-compatible embedding rerank
 
+## Quick Start
+
+### Build
+
+```bash
+go build -o memd ./cmd/memd
+```
+
+### Inspect local health
+
+```bash
+./memd doctor
+```
+
+### Start the local REST server
+
+```bash
+./memd serve
+```
+
+### Store and retrieve one memory over REST
+
+```bash
+curl -X POST http://127.0.0.1:8081/v1/memories \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "workspace_id": "demo",
+    "agent_id": "codex",
+    "kind": "fact",
+    "content": "MatrixOne runs locally on port 6001"
+  }'
+
+curl -X POST http://127.0.0.1:8081/v1/memories/retrieve \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "workspace_id": "demo",
+    "agent_id": "codex",
+    "query": "what port does MatrixOne use",
+    "limit": 5
+  }'
+```
+
 ## Commands
 
 ```bash
@@ -43,6 +85,24 @@ Add this to `~/.codex/config.toml`:
 command = "/absolute/path/to/memd"
 args = ["mcp", "--agent", "codex"]
 ```
+
+Then start a new Codex session and use the MCP tools directly:
+
+- `memory_store`
+- `memory_retrieve`
+- `memory_search`
+- `memory_dedup_preview`
+- `memory_dedup_apply`
+
+## Release Notes
+
+This repository includes:
+
+- CI workflow: `.github/workflows/ci.yml`
+- release workflow: `.github/workflows/release.yml`
+- release note categories: `.github/release.yml`
+
+Pushing a tag like `v0.1.1` will build binaries and attach them to the GitHub Release automatically.
 
 ## Notes
 

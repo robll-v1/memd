@@ -1,0 +1,26 @@
+changelog:
+  categories:
+    - title: Core Memory
+      labels:
+        - core
+        - memory
+    - title: API and MCP
+      labels:
+        - api
+        - mcp
+    - title: Storage and Embeddings
+      labels:
+        - storage
+        - sqlite
+        - embedding
+    - title: Tooling and CI
+      labels:
+        - ci
+        - release
+        - tooling
+    - title: Documentation
+      labels:
+        - docs
+  exclude:
+    labels:
+      - ignore-changelog
