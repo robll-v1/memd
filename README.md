@@ -228,10 +228,14 @@ Use the same flags in your MCP command if you want Codex sessions to use embeddi
 ## Repository Docs
 
 - design: `docs/DESIGN.md`
+- design (zh-CN): `docs/DESIGN.zh-CN.md`
 - install: `docs/INSTALL.md`
 - install (zh-CN): `docs/INSTALL.zh-CN.md`
 - publishing: `docs/PUBLISHING.md`
+- publishing (zh-CN): `docs/PUBLISHING.zh-CN.md`
 - releasing: `docs/RELEASING.md`
+- releasing (zh-CN): `docs/RELEASING.zh-CN.md`
 - codex setup: `docs/CODEX.md`
 - codex setup (zh-CN): `docs/CODEX.zh-CN.md`
 - contributing: `CONTRIBUTING.md`
+- contributing (zh-CN): `CONTRIBUTING.zh-CN.md`

@@ -168,11 +168,15 @@ go run ./cmd/memd doctor
 
 ## 仓库文档
 
-- 设计文档：`docs/DESIGN.md`
+- 设计文档（英文）：`docs/DESIGN.md`
+- 设计文档（中文）：`docs/DESIGN.zh-CN.md`
 - 安装说明（英文）：`docs/INSTALL.md`
 - 安装说明（中文）：`docs/INSTALL.zh-CN.md`
 - Codex 配置（英文）：`docs/CODEX.md`
 - Codex 配置（中文）：`docs/CODEX.zh-CN.md`
-- 发布说明：`docs/PUBLISHING.md`
-- 版本发布：`docs/RELEASING.md`
-- 贡献指南：`CONTRIBUTING.md`
+- 发布说明（英文）：`docs/PUBLISHING.md`
+- 发布说明（中文）：`docs/PUBLISHING.zh-CN.md`
+- 发版流程（英文）：`docs/RELEASING.md`
+- 发版流程（中文）：`docs/RELEASING.zh-CN.md`
+- 贡献指南（英文）：`CONTRIBUTING.md`
+- 贡献指南（中文）：`CONTRIBUTING.zh-CN.md`
