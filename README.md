@@ -5,6 +5,8 @@
 
 Local-first memory runtime for AI agents.
 
+中文 README: `README.zh-CN.md`
+
 `memd` is a lightweight memory layer for coding agents. It stores durable memories in local SQLite, exposes a local REST API, and can be mounted into agent clients through MCP.
 
 ## Features
@@ -226,7 +228,10 @@ Use the same flags in your MCP command if you want Codex sessions to use embeddi
 ## Repository Docs
 
 - design: `docs/DESIGN.md`
+- install: `docs/INSTALL.md`
+- install (zh-CN): `docs/INSTALL.zh-CN.md`
 - publishing: `docs/PUBLISHING.md`
 - releasing: `docs/RELEASING.md`
 - codex setup: `docs/CODEX.md`
+- codex setup (zh-CN): `docs/CODEX.zh-CN.md`
 - contributing: `CONTRIBUTING.md`
